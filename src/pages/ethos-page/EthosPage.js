@@ -6,7 +6,7 @@ import useStyles from "./EthosPageStyles";
 function EthosPage(props) {
   const classes = useStyles();
   return (
-    <div>Ethos Page</div>
+    <div className={classes.testHeading}>Ethos Page</div>
   )
 }
 

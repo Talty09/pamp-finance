@@ -6,7 +6,7 @@ import useStyles from "./ContactPageStyles";
 function ContactPage(props) {
   const classes = useStyles();
   return (
-    <div>Contact Page</div>
+    <div className={classes.testHeading}>Contact Page</div>
   )
 }
 

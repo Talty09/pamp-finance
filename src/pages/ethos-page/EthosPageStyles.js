@@ -5,6 +5,10 @@ const useStyles = makeStyles(
     root: {
       
     },
+    testHeading: {
+      fontWeight: '1000',
+      fontSize: '36px'
+    }
   }),
   {index: 1},
 );

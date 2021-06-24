@@ -6,7 +6,7 @@ import useStyles from "./PampXPageStyles";
 function PampXPage(props) {
   const classes = useStyles();
   return (
-    <div>PampX Page</div>
+    <div className={classes.testHeading}>PampX Page</div>
   )
 }
 

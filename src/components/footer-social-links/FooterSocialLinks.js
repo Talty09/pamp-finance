@@ -16,22 +16,22 @@ function FooterSocialLinks(props) {
       <Box display="flex" flexDirection="row">
       <List display="flex" flexDirection="row" justifyContent="flex-center">
         <ListItem className={classes.listItem}>
-          <a href="https://t.me/LetsGetPampyChat">
+          <a href="https://t.me/LetsGetPampyChat" target="_blank">
             <img src={TelegramIcon} className={classes.socialIcon}  />
           </a>
         </ListItem>
         <ListItem className={classes.listItem}>
-          <a href="https://twitter.com/CoinPampy">
+          <a href="https://twitter.com/CoinPampy" target="_blank">
             <img src={TwitterIcon} className={classes.socialIcon}  />
           </a>
         </ListItem>
         <ListItem className={classes.listItem}>
-          <a href="https://discord.com/invite/4GZJYF72">
+          <a href="https://discord.com/invite/4GZJYF72" target="_blank">
             <img src={DiscordIcon} className={classes.socialIcon}  />
           </a>
         </ListItem>
         <ListItem className={classes.listItem}>
-          <a href="https://www.reddit.com/r/PAMPY/">
+          <a href="https://www.reddit.com/r/PAMPY/" target="_blank">
             <img src={RedditIcon} className={classes.socialIcon} />
           </a>
         </ListItem>

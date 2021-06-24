@@ -6,7 +6,7 @@ import useStyles from "./HomePageStyles";
 function HomePage(props) {
   const classes = useStyles();
   return (
-    <div>Home Page</div>
+    <div className={classes.testHeading}>Home Page</div>
   )
 }
 

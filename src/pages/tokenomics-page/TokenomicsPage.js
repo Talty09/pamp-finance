@@ -6,7 +6,7 @@ import useStyles from "./TokenomicsPageStyles";
 function TokenomicsPage(props) {
   const classes = useStyles();
   return (
-    <div>Tokenomics Page</div>
+    <div className={classes.testHeading}>Tokenomics Page</div>
   )
 }
 
