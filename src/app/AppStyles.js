@@ -12,16 +12,19 @@ const useStyles = makeStyles(
       flexDirection: "column"
     },
     header: {
+      display: "flex",
       height: "75px",
-      backgroundColor: "green"
-    },
-    footer: {
-      minHeight: "180px",
-      backgroundColor: "red"
+      backgroundColor: "red",
     },
     main: {
-      flex: "1",
-      backgroundColor: "blue"
+      flex: "auto",
+      backgroundColor: "#000000",
+    },
+    appFooter: {
+      display: "flex",
+      flex: "auto",
+      height: "180px",
+      backgroundColor: "#000000",
     },
     containerFluid: {
       
@@ -45,9 +48,6 @@ const useStyles = makeStyles(
         maxWidth: "1140px",
       },
     },
-    containerBody: {
-      flex: "1"
-    },
     appBar: {
       display: "flex",
       border: "0",
@@ -61,7 +61,7 @@ const useStyles = makeStyles(
       alignItems: "center",
       flexFlow: "row nowrap",
       justifyContent: "flex-start",
-      position: "relative",
+      position: "absolute",
       zIndex: "unset",
       height: "75px",
     },
@@ -86,11 +86,8 @@ const useStyles = makeStyles(
       margin: "0px",
       display: "inline-flex",
       "&:hover,&:focus": {
-        color: "inherit",
-        background: "rgba(200, 200, 200, 0.2)",
+        color: '#ED45A0',
       },
-    },
-    testList: {
     },
     grid: {
       marginRight: "-15px",
@@ -104,16 +101,6 @@ const useStyles = makeStyles(
       paddingRight: "15px",
       paddingLeft: "15px",
       flexBasis: "auto",
-    },
-    footer: {
-      backgroundColor: '#000000',
-      color: '##ffffff',
-      minHeight: "180px",
-      position: "absolute",
-      bottom: "0",
-      left: "0",
-      rigfht: "0",
-      width: '100%',
     },
     toolBar: {
       backgroundColor: "#000",
