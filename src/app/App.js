@@ -39,7 +39,7 @@ function App() {
                   <PampyIconButton />
                   <List display="flex" flexDirection="row" justifyContent="flex-center">
                     <ListItem className={classes.listItem}>
-                      <Link to="pampy" className={classes.navLink}>
+                      <Link to="pampy" exact className={classes.navLink}>
                         Pampy
                       </Link>
                     </ListItem>
