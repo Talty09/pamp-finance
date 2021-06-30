@@ -13,7 +13,7 @@ const useStyles = makeStyles(
       paddingRight: "15px",
       color: "#ffffff",
       fontSize: "24px",
-      fontWeight: "1000",
+      fontWeight: "400",
       alignItems: "center",
       textDecoration: "none",
       borderStyle: "solid",
