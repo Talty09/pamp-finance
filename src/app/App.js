@@ -71,7 +71,13 @@ function App() {
                   render={(props) => <HomePage {...props} />} 
                 />
                 <Route
-                  path="/pampy"                  
+                  path="/pamp-finance"
+                  exact
+                  render={(props) => <HomePage {...props} />} 
+                />
+                <Route
+                  path="/pampy"     
+                  exact             
                   render={(props) => <PampyPage {...props} />} 
                 />
                 <Route
