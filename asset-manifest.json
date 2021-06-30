@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/pamp-finance/static/css/main.2ba47bc7.chunk.css",
-    "main.js": "/pamp-finance/static/js/main.d9578e40.chunk.js",
-    "main.js.map": "/pamp-finance/static/js/main.d9578e40.chunk.js.map",
+    "main.css": "/pamp-finance/static/css/main.b56f087f.chunk.css",
+    "main.js": "/pamp-finance/static/js/main.1d8b76f8.chunk.js",
+    "main.js.map": "/pamp-finance/static/js/main.1d8b76f8.chunk.js.map",
     "runtime-main.js": "/pamp-finance/static/js/runtime-main.878f7c70.js",
     "runtime-main.js.map": "/pamp-finance/static/js/runtime-main.878f7c70.js.map",
     "static/css/2.cc4baf17.chunk.css": "/pamp-finance/static/css/2.cc4baf17.chunk.css",
@@ -12,12 +12,12 @@
     "static/js/3.5bc245ef.chunk.js.map": "/pamp-finance/static/js/3.5bc245ef.chunk.js.map",
     "index.html": "/pamp-finance/index.html",
     "static/css/2.cc4baf17.chunk.css.map": "/pamp-finance/static/css/2.cc4baf17.chunk.css.map",
-    "static/css/main.2ba47bc7.chunk.css.map": "/pamp-finance/static/css/main.2ba47bc7.chunk.css.map",
+    "static/css/main.b56f087f.chunk.css.map": "/pamp-finance/static/css/main.b56f087f.chunk.css.map",
     "static/js/2.389a7ef9.chunk.js.LICENSE.txt": "/pamp-finance/static/js/2.389a7ef9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/pamp-finance/static/media/forum-latin-400.c17f0358.woff2",
     "static/media/HomeLogo.8ac2d3a2.png": "/pamp-finance/static/media/HomeLogo.8ac2d3a2.png",
     "static/media/Main.e9a2589b.jpeg": "/pamp-finance/static/media/Main.e9a2589b.jpeg",
     "static/media/discord-icon.278131b6.png": "/pamp-finance/static/media/discord-icon.278131b6.png",
-    "static/media/index.css": "/pamp-finance/static/media/forum-latin-400.c17f0358.woff2",
     "static/media/reddit-icon.e9e7817f.png": "/pamp-finance/static/media/reddit-icon.e9e7817f.png",
     "static/media/telegram-icon.1e394fc9.png": "/pamp-finance/static/media/telegram-icon.1e394fc9.png"
   },
@@ -25,7 +25,7 @@
     "static/js/runtime-main.878f7c70.js",
     "static/css/2.cc4baf17.chunk.css",
     "static/js/2.389a7ef9.chunk.js",
-    "static/css/main.2ba47bc7.chunk.css",
-    "static/js/main.d9578e40.chunk.js"
+    "static/css/main.b56f087f.chunk.css",
+    "static/js/main.1d8b76f8.chunk.js"
   ]
 }
