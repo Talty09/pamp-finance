@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pamp-finance/static/css/main.b56f087f.chunk.css",
-    "main.js": "/pamp-finance/static/js/main.7660931f.chunk.js",
-    "main.js.map": "/pamp-finance/static/js/main.7660931f.chunk.js.map",
+    "main.js": "/pamp-finance/static/js/main.d0a8fe8b.chunk.js",
+    "main.js.map": "/pamp-finance/static/js/main.d0a8fe8b.chunk.js.map",
     "runtime-main.js": "/pamp-finance/static/js/runtime-main.fc9a340f.js",
     "runtime-main.js.map": "/pamp-finance/static/js/runtime-main.fc9a340f.js.map",
     "static/css/2.e0c8f83e.chunk.css": "/pamp-finance/static/css/2.e0c8f83e.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.e0c8f83e.chunk.css",
     "static/js/2.497ae81c.chunk.js",
     "static/css/main.b56f087f.chunk.css",
-    "static/js/main.7660931f.chunk.js"
+    "static/js/main.d0a8fe8b.chunk.js"
   ]
 }
