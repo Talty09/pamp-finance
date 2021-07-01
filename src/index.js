@@ -4,6 +4,8 @@ import './index.css';
 import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 
+import '../node_modules/font-proxima-nova/style.css';
+
 import CssBaseline from '@material-ui/core/CssBaseline';
 import {ThemeProvider} from '@material-ui/core';
 import {theme} from './lib/styles/mui-config';

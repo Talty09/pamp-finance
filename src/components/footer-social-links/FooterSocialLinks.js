@@ -13,7 +13,7 @@ import useStyles from './FooterSocialLinksStyles';
 function FooterSocialLinks(props) {
   const classes = useStyles();
     return (
-      <Box display="flex" flexDirection="row">
+      <Box className={classes.linkContainer} display="flex" flexDirection="row">
         <List display="flex" flexDirection="row" justifyContent="flex-center">
           <ListItem className={classes.listItem}>
             <a href="https://t.me/LetsGetPampyChat" target="_blank">

@@ -1,6 +1,6 @@
 import {createMuiTheme} from '@material-ui/core';
 import "typeface-forum";
-import corleoneDueFont from '../assets/fonts/CorleoneDue.TTF';
+
 
 export const fontWeightLight = 300;
 export const fontWeightRegular = 400;
@@ -12,6 +12,7 @@ export const theme = createMuiTheme({
   typography: {
     fontFamily: [
       'Corleone Due',
+      'Proxima Nova',
       'Forum',
       '-apple-system',
       'BlinkMacSystemFont',

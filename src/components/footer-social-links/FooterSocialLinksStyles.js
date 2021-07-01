@@ -5,6 +5,9 @@ const useStyles = makeStyles(
     root: {
       margin: 'auto',
     },
+    linkContainer: {
+      paddingLeft: "24px"
+    },
     logoLinkImg: {
       verticalAlign: 'middle',
       maxHeight: '41px',

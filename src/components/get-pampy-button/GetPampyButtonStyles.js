@@ -6,9 +6,12 @@ const useStyles = makeStyles(
       
     },
     btnContainer: {
-      margin: 'auto',   
+      margin: 'auto', 
+      
     },
     btnMain: {
+      height: "40px",
+      paddingTop: "2px",
       paddingLeft: "15px",
       paddingRight: "15px",
       color: "#ffffff",
