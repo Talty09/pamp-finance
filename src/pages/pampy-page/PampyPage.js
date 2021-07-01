@@ -9,6 +9,7 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 
 import Card from '@material-ui/core/Card';
+import CardHeader from '@material-ui/core/CardHeader';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
@@ -20,70 +21,88 @@ import KeyboardIcon from '@material-ui/icons/Keyboard';
 import InfoIcon from '@material-ui/icons/Info';
 import AccountBalanceWalletIcon from '@material-ui/icons/AccountBalanceWallet';
 
+import Container from '../../components/common/container/Container';
+import Item from '../../components/common/item/Item';
+
 import DeskImage from '../../lib/assets/img/desk.jpg';
 
 function PampyPage(props) {
   const classes = useStyles();
-  return (
-    <div className={classes.content}>
-      <div className={classes.headingContainer}>
-        <img className={classes.deskImg} src={DeskImage} />
-        <div className={classes.imgContentContainer}>
-          <div className={classes.imgText}>
+  return (    
+    <Container className={classes.containerWrapper}>
+      <Container className={classes.itemContainer}>
+          <Typography className={classes.heading}>
             Pampy Coin
-          </div>
-          <Card className={classes.infoCard}>
-            <CardContent>
-              <div className={classes.listHeading}>
-                How To Get PAMPY
-              </div>
-              <Divider variant="middle" className={classes.listDivider} />
-              <div className={classes.stepContainer}>
-                <Typography variant="subtitle1" className={classes.wrapIcon}>
-                  <NavigationIcon className={classes.listIcon} /> 
-                  <div className={classes.iconText}>
-                  Navigate to 
+          </Typography>
+          <Typography className={classes.howToHeading}>
+                    How To Get PAMPY
+          </Typography>
+
+            <Card className={classes.card}>
+              <CardHeader 
+                title={
+                    <Avatar aria-label="PancakeSwap" className={classes.avatar}>
+                      <NavigationIcon className={classes.listIcon} />
+                    </Avatar>
+                }
+                />
+                <CardContent className={classes.cardContent}>
+                  <Typography  className={classes.nonLinkText}>
                   <a className={classes.swapLink} href="https://exchange.pancakeswap.finance/#/swap" target="_blank">
-                    PancakeSwap
-                  </a>
-                   and swap BNB for PAMPY
-                  </div>                  
-                </Typography>
-              </div>
+                        Navigate to PancakeSwap and swap BNB for PAMPY
+                        </a>
+                  </Typography>
+                </CardContent>
+            </Card>
 
-              <div className={classes.stepContainer}>
-                <Typography variant="subtitle1" className={classes.wrapIcon}>
-                  <KeyboardIcon className={classes.listIcon} /> 
-                  <div className={classes.iconText}>
-                    Enter the contact address: <p className={classes.contractAddress}>0x0a695De36514080C37712267edA8AC61aD6Cf209</p>
-                  </div>                  
+            <Card className={classes.card}>
+              <CardHeader 
+                title={
+                    <Avatar aria-label="EnterContract" className={classes.avatar}>
+                      <KeyboardIcon className={classes.listIcon} />
+                    </Avatar>
+                }
+              />
+              <CardContent className={classes.cardContent}>
+                <Typography  className={classes.nonLinkText}>
+                  Enter the contact address: 0x0a695De36514080C37712267edA8AC61aD6Cf209
                 </Typography>
-              </div>
+              </CardContent>
+            </Card>
 
-              <div className={classes.stepContainer}>
-                <Typography variant="subtitle1" className={classes.wrapIcon}>
-                  <InfoIcon className={classes.listIcon} /> 
-                  <div className={classes.iconText}>
-                    Set Slipage above 5%
-                  </div>                  
+            <Card className={classes.card}>
+              <CardHeader 
+                title={
+                    <Avatar aria-label="SetSlipage" className={classes.avatar}>
+                      <InfoIcon className={classes.listIcon} />
+                    </Avatar>
+                }
+              />
+              <CardContent className={classes.cardContent}>
+                <Typography  className={classes.nonLinkText}>
+                Set Slipage above 5%
                 </Typography>
-              </div>
+              </CardContent>
+            </Card>
 
-              <div className={classes.stepContainer}>
-                <Typography variant="subtitle1" className={classes.wrapIcon}>
-                  <AccountBalanceWalletIcon className={classes.listIcon} /> 
-                  <div className={classes.iconText}>
-                    Get PAMPY
-                  </div>                  
+            <Card className={classes.card}>
+              <CardHeader 
+                title={
+                    <Avatar aria-label="GetPAMPY" className={classes.avatar}>
+                      <AccountBalanceWalletIcon className={classes.listIcon} />
+                    </Avatar>
+                }
+              />
+              <CardContent className={classes.cardContent}>
+                <Typography  className={classes.nonLinkText}>
+                  Get PAMPY
                 </Typography>
-              </div>
-
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
           
-        </div>        
-      </div>
-    </div>
+      </Container>
+    </Container>
+    
   )
 }
 
