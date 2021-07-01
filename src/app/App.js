@@ -31,7 +31,7 @@ function App() {
   return (
    <div className={classes.wrapper}>
      <Router>
-       <BrowserRouter>
+       <BrowserRouter basename="/pamp-finance">
         <header className={classes.header}>
           <AppBar>
               <Toolbar className={classes.toolBar}>
@@ -65,13 +65,9 @@ function App() {
         </header>
         <div className={classes.main}>
           <Switch>
-              <Route
-                  path="/"
-                  exact
-                  render={(props) => <HomePage {...props} />} 
-                />
+
                 <Route
-                  path="/pamp-finance"
+                  path="/"
                   exact
                   render={(props) => <HomePage {...props} />} 
                 />
