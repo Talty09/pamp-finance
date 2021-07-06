@@ -1,33 +1,36 @@
 {
   "files": {
     "main.css": "/pamp-finance/static/css/main.b56f087f.chunk.css",
-    "main.js": "/pamp-finance/static/js/main.1891081e.chunk.js",
-    "main.js.map": "/pamp-finance/static/js/main.1891081e.chunk.js.map",
-    "runtime-main.js": "/pamp-finance/static/js/runtime-main.0e1846de.js",
-    "runtime-main.js.map": "/pamp-finance/static/js/runtime-main.0e1846de.js.map",
+    "main.js": "/pamp-finance/static/js/main.d74f1898.chunk.js",
+    "main.js.map": "/pamp-finance/static/js/main.d74f1898.chunk.js.map",
+    "runtime-main.js": "/pamp-finance/static/js/runtime-main.4716aa70.js",
+    "runtime-main.js.map": "/pamp-finance/static/js/runtime-main.4716aa70.js.map",
     "static/css/2.e0c8f83e.chunk.css": "/pamp-finance/static/css/2.e0c8f83e.chunk.css",
-    "static/js/2.bb45fcce.chunk.js": "/pamp-finance/static/js/2.bb45fcce.chunk.js",
-    "static/js/2.bb45fcce.chunk.js.map": "/pamp-finance/static/js/2.bb45fcce.chunk.js.map",
-    "static/js/3.ae38d154.chunk.js": "/pamp-finance/static/js/3.ae38d154.chunk.js",
-    "static/js/3.ae38d154.chunk.js.map": "/pamp-finance/static/js/3.ae38d154.chunk.js.map",
+    "static/js/2.2c297c03.chunk.js": "/pamp-finance/static/js/2.2c297c03.chunk.js",
+    "static/js/2.2c297c03.chunk.js.map": "/pamp-finance/static/js/2.2c297c03.chunk.js.map",
+    "static/js/3.b0b97b4c.chunk.js": "/pamp-finance/static/js/3.b0b97b4c.chunk.js",
+    "static/js/3.b0b97b4c.chunk.js.map": "/pamp-finance/static/js/3.b0b97b4c.chunk.js.map",
     "index.html": "/pamp-finance/index.html",
     "static/css/2.e0c8f83e.chunk.css.map": "/pamp-finance/static/css/2.e0c8f83e.chunk.css.map",
     "static/css/main.b56f087f.chunk.css.map": "/pamp-finance/static/css/main.b56f087f.chunk.css.map",
-    "static/js/2.bb45fcce.chunk.js.LICENSE.txt": "/pamp-finance/static/js/2.bb45fcce.chunk.js.LICENSE.txt",
+    "static/js/2.2c297c03.chunk.js.LICENSE.txt": "/pamp-finance/static/js/2.2c297c03.chunk.js.LICENSE.txt",
     "static/media/index.css": "/pamp-finance/static/media/forum-latin-400.c17f0358.woff2",
     "static/media/HomeLogo.8ac2d3a2.png": "/pamp-finance/static/media/HomeLogo.8ac2d3a2.png",
     "static/media/Main.e9a2589b.jpeg": "/pamp-finance/static/media/Main.e9a2589b.jpeg",
     "static/media/style.css": "/pamp-finance/static/media/ProximaNovaT-Thin.a96ccdb7.eot",
     "static/media/desk.f69c3c08.jpg": "/pamp-finance/static/media/desk.f69c3c08.jpg",
+    "static/media/detectiveDesk.c5e9a414.jpg": "/pamp-finance/static/media/detectiveDesk.c5e9a414.jpg",
     "static/media/discord-icon.278131b6.png": "/pamp-finance/static/media/discord-icon.278131b6.png",
+    "static/media/moonDark.dad5a14b.jpg": "/pamp-finance/static/media/moonDark.dad5a14b.jpg",
     "static/media/reddit-icon.e9e7817f.png": "/pamp-finance/static/media/reddit-icon.e9e7817f.png",
-    "static/media/telegram-icon.1e394fc9.png": "/pamp-finance/static/media/telegram-icon.1e394fc9.png"
+    "static/media/telegram-icon.1e394fc9.png": "/pamp-finance/static/media/telegram-icon.1e394fc9.png",
+    "static/media/vault_edited.6f34ed92.jpg": "/pamp-finance/static/media/vault_edited.6f34ed92.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e1846de.js",
+    "static/js/runtime-main.4716aa70.js",
     "static/css/2.e0c8f83e.chunk.css",
-    "static/js/2.bb45fcce.chunk.js",
+    "static/js/2.2c297c03.chunk.js",
     "static/css/main.b56f087f.chunk.css",
-    "static/js/main.1891081e.chunk.js"
+    "static/js/main.d74f1898.chunk.js"
   ]
 }
